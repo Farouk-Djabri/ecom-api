@@ -1,4 +1,4 @@
-const { registerUser, loginUser, } = require('../services/RegisterLoginService');
+const { registerUser, loginUser, } = require('../services/authService');
 
 
 //Register

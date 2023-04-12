@@ -28,6 +28,7 @@ const getAll = async (req, res) => {
   try {
     const products = await getProducts();
     res.json(products);
+    return products;
   } catch (err) {
     res.status(500).json({ message: err.message });
   }

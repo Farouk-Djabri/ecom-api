@@ -11,7 +11,7 @@ const {
   decreaseQuantity
 } = require('../controllers/productsController');
 
-const { addToCart, deleteFromCart, placeOrder } = require('../controllers/customerController');
+const { addToCart, deleteFromCart, placeOrder } = require('../controllers/cartController');
 
 
 router.route('/').get(getAll);
