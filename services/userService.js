@@ -55,7 +55,6 @@ const update = async (id, updateUsertInput) => {
     return  await getUser(id);
   };
 
-
 // DELETE a user by ID
   const deleteU = async (id) => {
     const user = await getUser(id);
